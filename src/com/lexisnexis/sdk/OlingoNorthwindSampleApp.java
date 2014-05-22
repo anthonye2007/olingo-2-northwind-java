@@ -43,7 +43,7 @@ import java.util.Set;
 /**
  * Demonstrates the usage of the Apache Olingo v2 client library to access the Microsoft sample Northwind database.
  */
-public class OlingoSampleApp {
+public class OlingoNorthwindSampleApp {
     public static final String HTTP_METHOD_PUT = "PUT";
     public static final String HTTP_METHOD_POST = "POST";
     public static final String HTTP_METHOD_GET = "GET";
@@ -58,7 +58,7 @@ public class OlingoSampleApp {
     public static final boolean PRINT_RAW_CONTENT = true;
 
     public static void main(String[] paras) throws Exception {
-        OlingoSampleApp app = new OlingoSampleApp();
+        OlingoNorthwindSampleApp app = new OlingoNorthwindSampleApp();
 
         String serviceUrl = "http://services.odata.org/V2/Northwind/Northwind.svc";
         String usedFormat = APPLICATION_JSON;
